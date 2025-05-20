@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import TaskForm from './components/TaskForm';
-import TaskList from './components/TaskList';
+import TaskForm from './components/Taskform';
+import TaskList from './components/Tasklist';
 import Dashboard from './components/Dashboard';
 
 function App() {
