@@ -16,7 +16,7 @@ function App() {
       <div>
         <h1 className="text-4xl font-bold text-center mt-8 mb-2 text-blue-800">TaskZen</h1>
         <p className='text-center mb-8 text-blue-600'>Master your day, one task at a time.</p>
-        <div className="max-w-2xl mx-auto bg-white p-6 rounded-2xl shadow-xl">
+        <div className="max-w-md sm:max-w-xl md:max-w-2xl mx-auto bg-white p-6 rounded-2xl shadow-xl">
           <Dashboard />
           <TaskForm />
           <TaskList />
